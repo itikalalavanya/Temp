@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function chkUser(){
+            let username=document.getElementById("name").value;
+            let password=document.getElementById("pwd").value;
+            if (username !=="john@gmail.com"||password!=="1234"){
+                msg.innerHTML="Acess Denied"
+            }
+            else {
+                msg.innerHTML="welcome john!"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <p><div id="msg"></div> </p>
+        <p><input type="text" placeholder="email or phone"></p>
+            <P><input type="password" placeholder="password"></P>
+           <p><button type="submit" onclick="chkUser()">Log in </button></p>
+    </div>
+</body>
+</html>

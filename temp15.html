@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function f1(){
+            let a=document.getElementById("name").value;
+            let b=Number(document.getElementById("age").value);
+            let c=Number(document.getElementById("study").value);
+            msg.innerHTML=a+'|'+b+'|'+c;
+           // let d=document.getElementById("").value;
+        }
+    </script>
+</head>
+<body>
+    <div> 
+       <p><input type="text" id="name" placeholder="enter the name"></p>
+      <p><input type="text" id="age" placeholder="enter age"/></p>
+        <p><input type="text" id="study" placeholder="study"/></p>
+        <button onclick="f1()">submit</button>
+     </div>
+    <div id="msg"></div>
+</body>
+</html>

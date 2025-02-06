@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function f1(){
+            let a=document.getElementById("name").value;
+            let b=document.getElementById("password").value;
+            msg.innerHTML=a+","+b;
+        }
+    </script>
+</head>
+<body>
+    <h1> login form</h1>
+        <p><input type="text" id="name" placeholder="mail"></p>
+        <p><input type="password" id="password" placeholder="password"></p>
+        <P><button onclick="f1()">log in</button></P>
+        <div id="msg"></div>
+</body>
+</html>

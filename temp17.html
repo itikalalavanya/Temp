@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function f1(){
+let a=document.getElementById("name").value;
+let b=document.getElementById("mail").value;
+let c=document.getElementById("password").value;
+let d=document.getElementById("dob").value;
+msg.innerHTML=a+","+b+","+c+","+d;
+        }
+    </script>
+</head>
+<body>
+    <div>
+       <p><input type="text" id="name" placeholder="name"></p>
+       <p><input type="text" id="mail" placeholder="mail"></p>
+       <p><input type="text" id="password" placeholder="password"></p>
+       <p><input type="date" id="dob" placeholder="dob"></p>
+       <p><button onclick="f1()">register</button></p>
+       <div id="msg"></div>
+
+    </div>
+</body>
+</html>
